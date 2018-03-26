@@ -7,6 +7,6 @@ IMooc\Object::test();
 App\Controller\Home\Index::test();
 echo "<hr>";
 
-$db = IMooc\Factory::createDataBase();
+$db = IMooc\Database::getInstance();
 $db::test();
 echo "<hr>";
