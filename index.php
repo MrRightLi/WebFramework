@@ -80,4 +80,4 @@ $event->addObserver($observer1);
 $event->trigger();
 echo '<hr>';
 
-##
+## 装饰器模式
