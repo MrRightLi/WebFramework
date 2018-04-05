@@ -80,3 +80,4 @@ $event->addObserver($observer1);
 $event->trigger();
 echo '<hr>';
 
+##
